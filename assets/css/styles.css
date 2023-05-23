@@ -6,6 +6,8 @@ body{
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
 }
 
 #gameboard {
@@ -31,7 +33,7 @@ body{
 .circle{
     height: 90px;
     width: 90px;
-    border:15px solid blue;
+    border:15px solid rgb(76, 76, 229);
     box-sizing: border-box;
     border-radius: 50%;
 }
@@ -46,7 +48,7 @@ body{
 .cross:before, .cross:after {
     content: "";
     position: absolute;
-    background-color: red;
+    background-color: rgb(255, 119, 0);
 }
 
 .cross:before{
