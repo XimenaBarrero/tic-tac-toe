@@ -1,6 +1,6 @@
 const gameboard = document.querySelector("#gameboard")
 const infoDisplay = document.querySelector("#info")
-const startCells= [
+let startCells= [
     "","","", "","","", "","",""
 ]
 
@@ -58,6 +58,13 @@ winningCombos.forEach(array => {
             return
         }
 })
-
-
 }
+/*
+//Restart game
+const restartButton= document.getElementById("restart")
+//Add event listener to restart btn
+restartButton.addEventListener("click",()=>{
+//reset game variables
+gameboard = [
+    "","","", "","","", "","",""]
+})*/
